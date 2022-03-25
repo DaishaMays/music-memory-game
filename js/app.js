@@ -1,5 +1,6 @@
 
-alert(' Welcome to the Music Memory Game. In order to win you have to match all of the cards. The timer starts Now!')
+
+
 // We start off with an alert box to let the user know the rules of the game
 
 const cards = document.querySelectorAll('.memory-card'); 
@@ -18,6 +19,10 @@ let seconds = 0;
 
 let el = document.getElementById('seconds-counter');
 // Storing div in a variable so we can update time in HTML
+
+let header = document.getElementById ('changing-message');
+
+
 
 function flipCard () {
   //Makes it to were only two cards can be selected at a time
@@ -53,10 +58,16 @@ function checkForMatch(){
     if (document.querySelectorAll('.flip').length ===
         12) {
 
+          header.innerText = 'You are a musical JEEN-YUHS! It only took ' + el.innerText+ ' for you to find all of the matches.';
+
         setTimeout (function() { 
-        alert('You are a musical JEEN-YUHS! It only took ' + el.innerText+ ' for you to find all of the matches.');
+        
+        
         location.reload();
-      }, 700);
+        
+      }, 5500);
+
+      
         
       }
 
