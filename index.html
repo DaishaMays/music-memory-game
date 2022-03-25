@@ -10,30 +10,34 @@
 
 
     </head>
-    <body>
-
-
-
-<p id="funcOutput"></p>
-<p id="handleEvtOutput"></p>
-
-
-<div class ="game">
-
+<body>
 
 <div class="title"> 
 <h1> Music Memory Game</h1>
 <h3>"Do you remember the time?</h3> 
+<!-- This is the title of the game. Includes a famous song lyric to help introduce the theme of the game. -->
 </div>
+
 
 
 <div class="scorecard">
-<div class="attempts"><h4>Attempts: 0</h4></div>
-<!-- <div class="timer"></div><h4>Seconds: 0</h4></div><div> -->
-<div id="app"></div>
+  <h4>Time:</h4>
+  <div id='seconds-counter'></div>
+<!-- This is the scorecard it holds the amount of time that it takes for the user to complete the game. -->
 </div>
 
+<button id="btn" onClick="window.location.reload();">Play Again</button>
+<!-- This is a button to restart the game. -->
+
+
+
+
+
+
+
 <section class="memory-game">
+<!-- memory-game is the board and holds all the cards that we will match.  -->
+<!-- each memory-card contains two images that represent the front and the back of the card. -->
   
   <div class="memory-card" data-framework="billyjean"> 
     <img class="front-face" src="img/billyjean.png" alt="Billy Jean lyrics">
@@ -97,10 +101,9 @@
 
 </section>
 
-<button id="btn">Play Again</button>
 
 </div>
 </body>
-    
+
 <script src="js/app.js"></script>
     </html>
