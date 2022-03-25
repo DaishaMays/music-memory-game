@@ -3,7 +3,7 @@
 ## Intro:
 
 ## How The Game Works:
-Link to Game:
+Link to Game: https://daishamays.github.io/music-memory-game/
 
 ## Wireframe: 
 
