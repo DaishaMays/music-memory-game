@@ -69,6 +69,7 @@ iterate through every card and wait for user to click
   * Change Font
   * Add Background
   * Resize cards
+  * Center Board
 
 * Add function to count attempts
 * Stop timer when all the matches are found.
