@@ -19,7 +19,9 @@ For my first project at General Assembly. I decided to build a memory game based
 ![Seir-3-7_Game@2x](https://user-images.githubusercontent.com/89038713/160151609-c2098dea-d17f-4ff5-8804-e7f33be3db02.png)
 
 
-## Planned Future Enhancements: 
+## Planned Future Enhancements:
+
+* Update Alert boxes to modals
 
 * I plan to add sound effects that are triggered everytime the user plays a
   round based on whether or not they got a match.
