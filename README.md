@@ -28,4 +28,9 @@ For my first project at General Assembly. I decided to build a memory game based
 
 * I plan to update the play again button.
 
+## Technologies Used
+
+* HTML
+* CSS
+* JAVASCRIPT
 
