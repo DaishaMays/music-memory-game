@@ -21,7 +21,7 @@ For my first project at General Assembly. I decided to build a memory game based
 
 ## Planned Future Enhancements:
 
-* Update Alert boxes to modals
+* Add modals
 
 * I plan to add sound effects that are triggered everytime the user plays a
   round based on whether or not they got a match.
