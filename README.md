@@ -26,6 +26,6 @@ For my first project at General Assembly. I decided to build a memory game based
 
 * I plan to add scored showing previous finish times so the user can compare.
 
-*I plan to update the play again button.
+* I plan to update the play again button.
 
 
