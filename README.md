@@ -28,7 +28,10 @@ For my first project at General Assembly. I decided to build a memory game based
 
 * I plan to add scored showing previous finish times so the user can compare.
 
+* Make mobile friendly
+
 * I plan to update the play again button.
+
 
 ## Technologies Used
 
