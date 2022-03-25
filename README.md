@@ -18,6 +18,37 @@ For my first project at General Assembly. I decided to build a memory game based
 
 ![Seir-3-7_Game@2x](https://user-images.githubusercontent.com/89038713/160151609-c2098dea-d17f-4ff5-8804-e7f33be3db02.png)
 
+## Psuedo Code:
+
+We need to make title and scored card.
+
+restart/play again button.
+
+div to hold the cards and each card has a 
+div that holds the front card & the back card.
+
+alert box to let the user know the rules of 
+the game
+
+function flipCard () to flip cards so we can see if they match.
+
+function checkForMatch() if card is a match update
+class to flip which also triggers  disableCards();
+so they flip back around and when we have 12 classes
+that say flip we end the game with an Alert box.
+telling user how many seconds it took for them to find 
+all the messages.
+
+function unflip() flip cards cards back if they
+are not a match.
+
+function shuffle() shuffles cards everytime browser
+is refreshed
+
+function incrementSeconds() our timer
+
+iterate through every card and wait for user to click
+
 
 ## Planned Future Enhancements:
 
