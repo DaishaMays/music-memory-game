@@ -55,13 +55,23 @@ iterate through every card and wait for user to click
 * Add modals
 
 * I plan to add sound effects that are triggered everytime the user plays a
-  round based on whether or not they got a match.
+  round based on whether or not they got a match. If they get a match it will play a sound that relates to the music artist on the card.
 
-* I plan to add scored showing previous finish times so the user can compare.
+* I plan to add high score showing previous finish times so the user can compare.
 
 * Make mobile friendly
 
 * I plan to update the play again button.
+
+* Put contact Info on webpage
+
+* Improve CSS
+  * Change Font
+  * Add Background
+  * Resize cards
+
+* Add function to count attempts
+* Stop timer when all the matches are found.
 
 
 ## Technologies Used
