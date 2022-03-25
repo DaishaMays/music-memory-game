@@ -59,7 +59,8 @@ function checkForMatch(){
         12) {
 
           header.innerText = 'You are a musical JEEN-YUHS! It only took ' + el.innerText+ ' for you to find all of the matches.';
-
+          header.style.color = 'Green';
+          
         setTimeout (function() { 
         
         
@@ -112,7 +113,7 @@ setTimeout(() => {
 
 function incrementSeconds() {
     seconds += 1;
-    el.innerText = seconds + " seconds";
+    el.innerText = seconds +  " seconds";
 }
 
 const cancel = setInterval(incrementSeconds, 1000);
